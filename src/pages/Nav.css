@@ -115,8 +115,8 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
-    background: rgba(255, 255, 255, 0.603);
-    box-shadow: 0 3px 10px 0 rgba(104, 104, 104, 0.607);
+    background: rgba(255, 255, 255, 0.868);
+    box-shadow: 0 3px 10px 0 rgba(104, 104, 104, 0.9);
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(30px);
     border-radius: 10px;

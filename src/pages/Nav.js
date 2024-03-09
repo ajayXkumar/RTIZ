@@ -4,7 +4,7 @@ import "./Nav.css";
 import { CodeIcon, HamburgetMenuClose, HamburgetMenuOpen } from "./icon";
 
 function Nav() {
-  const [click, setClick] = useState(false);
+  const [click, setClick] = useState(true);
 
   const handleClick = () => setClick(!click);
   return (

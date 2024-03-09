@@ -13,7 +13,7 @@ function Nav() {
         <div className="nav-container">
 
           <NavLink exact to="/" className="nav-logo">
-            <span>CodeBucks</span>
+            <span>RTIZ</span>
             {/* <i className="fas fa-code"></i> */}
             <span className="icon">
               <CodeIcon />

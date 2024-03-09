@@ -115,6 +115,16 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 3px 10px 0 rgba(104, 104, 104, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    font-family: "Outfit", sans-serif;
+    align-items: center;
+    justify-content: center;
+    
   }
   .nav-item .active {
     color: #000000;

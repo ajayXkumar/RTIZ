@@ -32,7 +32,7 @@
 }
 
 .nav-logo {
-  color: #f5b921;
+  color: #020202;
   align-items: center;
   margin-left: 20px;
   cursor: pointer;
@@ -140,6 +140,6 @@
     width: 2rem;
     height: 2rem;
     cursor: pointer;
-    color: #ffdd40;
+    color: #000000;
   }
 }

@@ -16,11 +16,10 @@ function Nav() {
             <span>RTIZ</span>
             {/* <i className="fas fa-code"></i> */}
             <span className="icon">
-              <CodeIcon />
             </span>
           </NavLink>
           <div className="buttons">
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <ul className={click ? "nav-menu":"nav-menu active"}>
             <li className="nav-item">
               <NavLink
                 exact

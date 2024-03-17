@@ -5,6 +5,7 @@
   width: 100%;
   padding: 40px;
   align-items: center;
+  padding: 0px 10%;
 }
 
 .head1 {
@@ -22,7 +23,9 @@
     display: flex;
     width: 24%;
     margin-bottom: 20px;
-    height:50%;
+    padding-right:10px;
+    padding-left: 10px;
+    height:310px;
     background: rgba(255, 255, 255, 0.25);
     box-shadow: 0 3px 10px 0 rgba(104, 104, 104, 0.37);
     backdrop-filter: blur(20px);
@@ -33,7 +36,7 @@
     align-items: center;
     justify-content: center;
   }
-  
+
 @media (max-width: 480px) {
   .head1 {
     font-size: 1rem;
@@ -46,10 +49,13 @@
   }
   .design-card {
     display: flex;
-    width: 47%;
+    width: 48%;
+    height: 140px;
     margin-bottom: 20px;
-    height:50%;
+  
 }
+
+
 }
 
 .main-image {

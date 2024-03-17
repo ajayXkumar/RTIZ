@@ -1,11 +1,12 @@
 import React, { useRef, useEffect ,useState} from "react";
+import data from "../data";
 import "./home.css";
 
 const Home = () => {
   const containerRef = useRef(null);
   const imageRef = useRef(null);
   const textRef = useRef(null);
-
+  const [images,setimges]=useState(data)
   const [showAnotherImage, setShowAnotherImage] = useState(false);
 
   const handleClick = () => {
@@ -63,42 +64,15 @@ const Home = () => {
         <img className="image" ref={imageRef} src="./1.png" alt=""></img>
       </div>
       <div>
-        <p>designs</p>
+        <p style={{fontWeight:"bold", fontSize:"30px", textAlign:"center" ,marginBottom:"2%"}}>DESIGNS</p>
         <div className="all-designs">
-        <div className="design-card" onClick={handleClick} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-        {showAnotherImage ? (
-          <img className="designs" src="./2.png" alt="Another Image"></img>
-        ) : (
-          <img className="designs" src="./1.png" alt="Original Image"></img>
-        )}
-      </div>
-      <div className="design-card" onClick={handleClick} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-        {showAnotherImage ? (
-          <img className="designs" src="./3.png" alt="Another Image"></img>
-        ) : (
-          <img className="designs" src="./3.png" alt="Original Image"></img>
-        )}
-      </div>
-
-          <div className="design-card">
-            <img className="designs" src="./4.png" alt=""></img>
-          </div>
-          <div className="design-card">
-            <img className="designs" src="./5.png" alt=""></img>
-          </div>
-          <div className="design-card">
-            <img className="designs" src="./2.png" alt=""></img>
-          </div>
-          <div className="design-card">
-            <img className="designs" src="./5.png" alt=""></img>
-          </div>
-          <div className="design-card">
-            <img className="designs" src="./1.png" alt=""></img>
-          </div>
-          <div className="design-card">
-            <img className="designs" src="./4.png" alt=""></img>
-          </div>
-
+          {images.map((item)=>(
+             
+             <div className="design-card">
+                 <img src={item.Image}/>
+             </div>
+            
+          ))}
         </div>
       </div>
     </div>

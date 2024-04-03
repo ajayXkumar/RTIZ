@@ -13,10 +13,13 @@ const Home = () => {
 
   return (
     <div ref={containerRef} className="main-container">
+      <div  className="herosection">
       <div className="text">
-        <h1 className="head1">creative cool build </h1>
-        <h1 className="head2">NAMASTE</h1>
+        <h1 className="head1">CREATIVITY IN PIXELS</h1>
+        <h1 className="head2">GRAPHIC DESIGNE , LOGO DESIGN , WEB DEV</h1>
       </div>
+      </div>
+     
       <div className="main-image">
         <img className="image" src="./1.png" alt=""></img>
       </div>

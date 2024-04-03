@@ -21,7 +21,7 @@ const Home = () => {
       </div>
      
       <div className="main-image">
-        <img className="image" src="./1.png" alt=""></img>
+        <img className="image" src="./main.png" alt=""></img>
       </div>
       <div>
         <p style={{ fontWeight: "bold", fontSize: "30px", textAlign: "center", marginBottom: "2%" }}>DESIGNS</p>

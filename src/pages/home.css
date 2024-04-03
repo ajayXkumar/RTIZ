@@ -3,6 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  align-items: center;
   width: 100%;
   padding: 40px;
   align-items: center;
@@ -50,12 +51,7 @@ body{
     padding-right:10px;
     padding-left: 10px;
     height:310px;
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 3px 10px 0 rgba(104, 104, 104, 0.37);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(60px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: rgb(222, 222, 222);
 
     justify-content: center;
   }
@@ -75,6 +71,7 @@ body{
 
 .main-image {
   height: 70%;
+  margin-left: 10%;
 }
 .image {
   width: 100%;

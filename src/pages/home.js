@@ -3,7 +3,6 @@ import data from "../data";
 import "./home.css";
 
 const Home = () => {
-  const containerRef = useRef(null);
   const [selectedImage, setSelectedImage] = useState(null);
   const [images, setImages] = useState(data);
 
@@ -12,7 +11,7 @@ const Home = () => {
   };
 
   return (
-    <div ref={containerRef} className="main-container">
+    <div className="main-container">
       <div  className="herosection">
       <div className="text">
         <h1 className="head1">CREATIVITY IN PIXELS</h1>
@@ -27,8 +26,12 @@ const Home = () => {
         <p style={{ fontWeight: "bold", fontSize: "30px", textAlign: "center", marginBottom: "2%" }}>DESIGNS</p>
         <div className="all-designs">
           {images.map((item, index) => (
+            <div className="text-image">
             <div className="design-card" key={index}>
               <img src={item.Image} onClick={() => handleImageClick(item)} />
+              
+            </div>
+            <p>{item.title}</p>
             </div>
           ))}
         </div>
@@ -47,6 +50,11 @@ const Home = () => {
           </div>
         </div>
       )}
+      <div className="footer">
+
+        <p>about section</p>
+      
+      </div>
     </div>
   );
 };

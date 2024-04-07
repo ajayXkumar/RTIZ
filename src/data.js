@@ -73,7 +73,12 @@ const data=[
     {
         id:17,
         Image:'./17.png',
-        title:'The face'
+        title:'No need'
+    },
+    {
+        id:18,
+        Image:'./18.png',
+        title:'Flower'
     },
 
    

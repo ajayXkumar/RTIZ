@@ -6,6 +6,7 @@
   align-items: center;
   width: 100%;
   align-items: center;
+  background-color: rgb(241, 241, 241);
 }
 
 @keyframes animatedGradient {
@@ -86,9 +87,9 @@
   font-weight:bold;
   width: 21%;
   margin-bottom: 20px;
-
+  background-color: rgb(255, 255, 255);
   padding: 10px;
-  background-color: rgb(232, 232, 232);
+ 
   border-radius: 6px;
 }
 .overlay {
@@ -158,5 +159,15 @@ button {
 }
 
 .footer {
-  height: 300px;
+  width: 70%;
+  border-top: 1px solid grey;
+  padding:20px 0px;
+}
+.contact{
+  height: 200px;
+  width: 70%;
+  text-align: center;
+  border-top: 1px solid grey;
+  padding:20px 0px;
+
 }

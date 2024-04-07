@@ -4,47 +4,79 @@ const data=[
     {
         id:1,
         Image:'./1.png',
-        title:'about that life'
+        title:'About life'
     },
 
     {
         id:2,
         Image:'./2.png',
-        title:'armed & dangerous'
+        title:'A & D'
     },
     {
         id:3,
         Image:'./3.png',
-        title:'cream'
+        title:'Cream'
     },
     {
         id:4,
         Image:'./4.png',
-        title:"virtuous"
+        title:"Virtuous"
     }
 ,
     {
         id:5,
         Image:'./5.png',
-        title:"queen"
+        title:"The queen"
     },
     {
         id:6,
         Image:'./6.png',
-        title:"gods plan"
+        title:"Gods plan"
     }
     ,
     {
         id:7,
         Image:'./7.png',
-        title:'i cant do'
+        title:'I cant do'
     }
     ,
     {
         id:8,
         Image:'./8.png',
-        title:'navigating life'
+        title:'Navigating life'
     },
+    {
+        id:10,
+        Image:'./10.png',
+        title:'Gods word'
+    },
+    {
+        id:11,
+        Image:'./11.png',
+        title:'The wings'
+    },
+    {
+        id:12,
+        Image:'./13.png',
+        title:'Christ'
+    },
+    {
+        id:13,
+        Image:'./15.png',
+        title:'Life'
+    },
+    {
+        id:16,
+        Image:'./16.png',
+        title:'Minima'
+    },
+    {
+        id:17,
+        Image:'./17.png',
+        title:'The face'
+    },
+
+   
   
 
    

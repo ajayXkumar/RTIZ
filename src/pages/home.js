@@ -35,6 +35,7 @@ const Home = () => {
         <div className="all-designs">
           {images.map((item, index) => (
             <div className="text-image">
+              {/* <p style={{marginLeft:"200px"}}>like</p> */}
               <div className="design-card" key={index}>
                 <img src={item.Image} onClick={() => handleImageClick(item)} />
               </div>
